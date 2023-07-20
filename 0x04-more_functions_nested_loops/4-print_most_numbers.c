@@ -10,7 +10,7 @@ int x;
 
 for (x = 0 ; x < 10 ; x++)
 {
-if (x == 2 && x == 4)
+if (x == 2 || x == 4)
 {
 continue;
 }
